@@ -1,7 +1,7 @@
 TARGET = jserver
 SRC_DIR = src
 CC = gcc
-CFLAGS = -g -Wall -Wextra
+CFLAGS = -g -Wall -Wextra -std=c11
 
 .PHONY: default all clean
 
